@@ -1,5 +1,5 @@
 all: hw1_myprintf.o hw1_str.o
-	ar rcs libhw1.a hw1_myprintf.o hw1_str.o
+	ar rcs hw1.a hw1_myprintf.o hw1_str.o
 
 hw1_myprintf.o: hw1_myprintf.c
 	gcc -c -o hw1_myprintf.o hw1_myprintf.c
